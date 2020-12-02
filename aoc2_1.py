@@ -4,10 +4,6 @@ def read_input(file):
     f.close()
     return out
 
-def count_letters(a, pw):
-    a_count = pw.count(a)
-    return a_count
-
 def split_pw(input):
     rule = input.split(': ')[0]
     min_max = rule.split(' ')[0].split('-')
